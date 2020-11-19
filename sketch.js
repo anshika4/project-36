@@ -47,7 +47,7 @@ function setup() {
 
   foodStock = database.ref('food');
     foodStock.on("value", readStock);
-    foodStock.set(1);
+   // foodStock.set(1);
   
   
   
